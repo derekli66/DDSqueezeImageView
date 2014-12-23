@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-/** DDSwitchImageView will switch image and highlight image with -switchImage method
+/**
+ DDSwitchImageView will switch image and highlightImage with -switchImage method
  
- 1. Set image and hightlight image before switching. If no highlight image, the highlight image
-    will be set with image from image property
+ 1. Set image and highlightImage property before switching. If highlight image is not available, the highlight image will be replaced by the image from image property
  
  2. -switchImage method will run scaling animation to switch image and highlight image
  
