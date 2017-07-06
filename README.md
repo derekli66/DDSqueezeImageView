@@ -3,7 +3,7 @@ DDSqueezeImageView
 
 A image view performs image switching with squeezing and popping animations.
 
-###Usage
+## Usage
 DDSwitchImageView will switch *image* and *highlightImage* with *switchImage* method
  
  1. Set *image* and *highlightImage* property before switching. If highlight image is not available, the highlight image will be replaced by the image from *image* property
